@@ -1,0 +1,7 @@
+{
+  "name": "screenReader",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
