@@ -12,6 +12,6 @@ export class ApiService {
     let datos  = new FormData();
     datos.append('nombre', nombre);
     datos.append('imagen', foto);
-    return this.httpClient.post(`http://127.0.0.1:8000/api/persona`, datos);
+    return this.httpClient.post(`http://107.23.35.14/api/persona`, datos);
   }
 }
